@@ -118,3 +118,30 @@ header ul li a:hover {
   height: 330px;
   filter: drop-shadow(1px 1px 20px #F5FCFF);
 }
+
+.sessaoTecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  background-color:#f5fcff9a;
+  backdrop-filter: blur(2px);
+  box-shadow: inset 0px 0px 20px 10px  #D6F1FF;
+  border-radius: 20px;
+}
+
+.caixa {
+  background-color: #00e5ff;
+  width: 150px;
+  height: 200px;
+  margin: 6rem 1rem;
+  transition: box-shadow 0.5s ease;
+  box-shadow: inset none;
+  border: 2px solid #001b445b;
+  border-radius: 10px;
+}
+
+.caixa:hover {
+  box-shadow: inset 0px 0px 40px #001B44;
+}
